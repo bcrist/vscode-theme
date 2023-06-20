@@ -85,7 +85,7 @@
             }
         },
         {
-            "name": "Variable and parameter name",
+            "name": "Variable name",
             "scope": [
                 "variable",
                 "meta.definition.variable.name",
@@ -94,7 +94,16 @@
                 "constant.other.placeholder"
             ],
             "settings": {
-                "foreground": "#a8c6d8"
+                "foreground": "#b0cfe2"
+            }
+        },
+        {
+            "name": "Parameter name",
+            "scope": [
+                "variable.parameter",
+            ],
+            "settings": {
+                "foreground": "#85bbdd"
             }
         },
         {
@@ -105,6 +114,15 @@
             ],
             "settings": {
                 "foreground": "#b1e9bd"
+            }
+        },
+        {
+            "name": "Properties",
+            "scope": [
+                "variable.other.property",
+            ],
+            "settings": {
+                "foreground": "#84c7ba"
             }
         },
         {
