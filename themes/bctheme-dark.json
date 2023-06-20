@@ -113,7 +113,7 @@
                 "variable.other.enummember"
             ],
             "settings": {
-                "foreground": "#b1e9bd"
+                "foreground": "#e3b1e9"
             }
         },
         {
@@ -122,7 +122,7 @@
                 "variable.other.property",
             ],
             "settings": {
-                "foreground": "#84c7ba"
+                "foreground": "#9bd1c5"
             }
         },
         {
