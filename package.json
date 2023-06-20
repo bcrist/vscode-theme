@@ -1,0 +1,28 @@
+{
+    "name": "bctheme",
+    "displayName": "BCTheme",
+    "description": "What I like",
+    "categories": [
+        "Themes"
+    ],
+    "version": "1.0.1",
+    "publisher": "bcrist",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "id": "bctheme-dark",
+                "label": "BCTheme Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/bctheme-dark.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bcrist/vscode-theme.git"
+    }
+}
