@@ -216,6 +216,14 @@
             "settings": {
                 "foreground": "#999",
             }
+        },
+        {
+            "scope": [
+                "meta.preprocessor.string.zkittle"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+            }
         }
     ],
     "semanticTokenColors": {
