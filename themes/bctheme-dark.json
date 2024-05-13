@@ -2,6 +2,11 @@
     "$schema": "vscode://schemas/color-theme",
     "name": "Dark Ben",
     "include": "./dark_vs.json",
+    "colors": {
+        "editorStickyScroll.background": "#131313",
+		"editorStickyScroll.shadow": "#000000",
+		"editorStickyScrollHover.background": "#232324"
+    },
     "tokenColors": [
         {
             "name": "Function declarations",
