@@ -197,7 +197,10 @@
             }
         },
         {
-            "scope": "constant.character.escape",
+            "scope": [
+                "constant.character.escape",
+                "constant.character.entity.html"
+            ],
             "settings": {
                 "foreground": "#d7ba7d"
             }
@@ -211,7 +214,8 @@
         {
             "scope": [
                 "punctuation.separator",
-                "punctuation.parenthesis"
+                "punctuation.parenthesis",
+                "entity.name.tag"
             ],
             "settings": {
                 "foreground": "#999",
@@ -222,7 +226,7 @@
                 "meta.preprocessor.string.zkittle"
             ],
             "settings": {
-                "fontStyle": "italic",
+                "fontStyle": "underline",
             }
         }
     ],
