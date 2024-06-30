@@ -233,7 +233,42 @@
             "settings": {
                 "fontStyle": "underline",
             }
-        }
+        },
+        {
+            "scope": [
+                "variable.zkittle",
+            ],
+            "settings": {
+                "foreground": "#e3b1e9"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.single.zkittle",
+                "string.quoted.double.zkittle"
+            ],
+            "settings": {
+                "foreground": "#d987e2"
+            }
+        },
+        {
+            "scope": [
+                "keyword.control.operator.zkittle",
+                "keyword.control.directive.zkittle"
+            ],
+            "settings": {
+                "foreground": "#e19be9"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.definition.template-expression.begin.zkittle",
+                "punctuation.definition.template-expression.end.zkittle"
+            ],
+            "settings": {
+                "foreground": "#9d5aa5"
+            }
+        },
     ],
     "semanticTokenColors": {
         "newOperator": "#C586C0",
